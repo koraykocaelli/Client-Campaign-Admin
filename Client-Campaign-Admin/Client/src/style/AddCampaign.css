@@ -1,0 +1,111 @@
+.add-campaign-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #eef2f5; /* Light Grayish Blue */
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .add-campaign-container h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #34495e; /* Dark Blue Gray */
+    margin-bottom: 20px;
+  }
+  
+  .add-campaign-form {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px; /* Ensures the form doesn't stretch */
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Spacing between fields */
+  }
+  
+  .add-campaign-form input,
+  .add-campaign-form button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .add-campaign-form input {
+    background-color: #f9f9f9;
+  }
+  
+  .add-campaign-form input:focus {
+    outline: none;
+    border-color: #4a90e2; /* Vibrant Blue */
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5);
+  }
+  
+  .add-campaign-form button {
+    background-color: #4a90e2; /* Vibrant Blue */
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-campaign-form button:hover {
+    background-color: #357abf; /* Darker Blue */
+  }
+  
+  .add-campaign-form .estimated-cost-field {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between the dollar sign and input */
+  }
+  
+  .add-campaign-form .estimated-cost-field span {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 6px 0 0 6px;
+    color: #34495e;
+    font-weight: bold;
+  }
+  
+  .add-campaign-form .estimated-cost-field input {
+    border-left: none;
+    border-radius: 0 6px 6px 0;
+    padding-left: 10px;
+  }
+  
+  .campaign-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .campaign-list li {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .campaign-list li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .campaign-list li span {
+    font-weight: bold;
+  }
+  

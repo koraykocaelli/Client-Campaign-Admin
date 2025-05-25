@@ -1,0 +1,33 @@
+.client-detail-container {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .client-detail-card {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .client-detail-card h2 {
+    color: #7793c2; /* Vista Blue */
+  }
+  
+  .client-detail-card p {
+    font-size: 16px;
+  }
+  
+  .edit-btn {
+    background-color: #5a6484; /* Payne's gray */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn:hover {
+    background-color: #4a5268;
+  }
+  

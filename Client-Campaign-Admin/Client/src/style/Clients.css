@@ -1,0 +1,22 @@
+.clients-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.clients-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+.clients-table th {
+  background-color: #3498db; /* Blue header */
+  color: white;
+  padding: 12px;
+}
+
+.clients-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}

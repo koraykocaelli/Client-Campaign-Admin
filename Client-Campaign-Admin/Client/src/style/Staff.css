@@ -1,0 +1,23 @@
+.staff-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.staff-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.staff-table th {
+  background-color: #3498db; /* Green header */
+  color: white;
+  padding: 12px;
+}
+
+.staff-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
